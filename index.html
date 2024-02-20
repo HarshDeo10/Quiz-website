@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="icon" type="image/resume" href="./quiz.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Quiz Application: Show your Upscaling Talent by solving knowledgable question!!</h1> 
+    <div class="container">
+        
+        <div class="timerandscore">
+        <h2 id="timer"> TIME LEFT: <span id="time">220</span> seconds</h2>
+        <h2 id="score">SCORE: <span id="marks"></span></h2>
+        </div>
+        <div class="questionnumber">
+        <h2 id="number"></h2>
+        </div>
+        <div class="question" id="quiz">
+        <h2 id="question_conatiner"></h2>
+        <div id="option_container"></div>
+        <p id="display"> </p>
+        <button onclick="nextquestion()" id="click"> SUBMIT</button>
+        <div id="result"></div>
+        
+        </div>
+        </div>   
+<script src="./script.js"></script>    
+</body>
+</html>
